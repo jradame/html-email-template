@@ -1,0 +1,14 @@
+{
+  "name": "html-email-template",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && npx http-server public -p 3000 -c-1"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "juice": "^10.0.0",
+    "http-server": "^14.1.1"
+  }
+}
